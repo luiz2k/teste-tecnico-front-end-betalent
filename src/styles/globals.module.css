@@ -1,0 +1,61 @@
+@import "./variables.module.css";
+@import "./reset.module.css";
+
+body {
+  font-family: var(--font-roboto);
+
+  background-color: var(--gray-00-neutral);
+  color: var(--black-neutral);
+}
+
+.text_start {
+  text-align: start;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.shadow_xs {
+  box-shadow: var(--shadow-xs);
+}
+
+.shadow_md {
+  box-shadow: var(--shadow-md);
+}
+
+.rounded_sm {
+  border-radius: var(--rounded-sm);
+}
+
+.rounded_lg {
+  border-radius: var(--rounded-lg);
+}
+
+.rounded_full {
+  border-radius: 100%;
+}
+
+.width_full {
+  width: 100%;
+}
+
+.width_fit {
+  width: fit-content;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.object_cover {
+  object-fit: cover;
+}
+
+.overflow_hidden {
+  overflow: hidden;
+}
+
+.text_nowrap {
+  text-wrap: nowrap;
+}
